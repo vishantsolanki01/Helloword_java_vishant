@@ -1,3 +1,7 @@
 #!/bin/bash
-echo "===========image create======="
-docker image build -t vishantsolanki01/javaproject:${build_id} .
+
+echo "============================="
+echo "|| Creating Docker Image   ||"
+echo "============================="
+
+docker image build -t vishantsolanki01/javaproject:${BUILD_ID} .
