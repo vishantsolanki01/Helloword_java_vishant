@@ -14,11 +14,11 @@ pipeline {
          }
       }  
     stage('DOCKER_IMAGE_PUSH') {
-        environment {
-                SERVICE_CREDS = credentials(dockerhub)
-            }
+          environment {
+                SERVICE_CREDS = credentials('dockerid')
+         }
          steps {
-            sh "docker login --username=$SERVICE_CREDS_USR  --password=$SERVICE_CREDS_PSW";
+            sh "docker login --username=$SERVICE_CREDS_USR --password=$SERVICE_CREDS_PSW";
             sh "docker image push vishantsolanki01/javaproject:${build_id}";
             sh "docker image rm vishantsolanki01/javaproject:${build_id}"
          }
