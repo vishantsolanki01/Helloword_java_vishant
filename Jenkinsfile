@@ -4,13 +4,13 @@ pipeline {
    stages {
       stage('MAVEN_BUILD') {
          steps {
-            sh './java_project_6oct2020/jenkins/build.sh'
+            sh './jenkins/build.sh'
          }
       }
 
     stage('DOCKER_IMAGE_BUILD') {
          steps {
-            sh './java_project_6oct2020/jenkins/build_docker_image.sh'
+            sh './jenkins/build_docker_image.sh'
          }
       }  
     stage('DOCKER_IMAGE_PUSH') {
