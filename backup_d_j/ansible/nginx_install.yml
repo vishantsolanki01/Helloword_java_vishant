@@ -1,0 +1,12 @@
+-
+  name: this is our first play.
+  hosts: webserver
+  tasks: 
+    - name: "installing nginx server"
+      apt:
+        name: nginx
+        state: present
+    - name: "send build to nginx server"
+      copy:
+        src: /tmp/test.txt
+        dest: /var/www/html/index.nginx-debian.html

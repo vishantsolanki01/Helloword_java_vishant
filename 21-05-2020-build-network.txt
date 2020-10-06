@@ -1,0 +1,1000 @@
+   56  clear
+   57  ls
+   58  vi Dockerfile
+   59  git clone https://github.com/coolgourav147/hello-world-angular.git
+   60  ls
+   61  cp Dockerfile hello-world-angular/
+   62  clear
+   63  cd hello-world-angular/
+   64  ls
+   65  vi Dockerfile 
+   66  clear
+   67  vi Dockerfile 
+   68  ls
+   69  docker image build -t angular .
+   70  docker image ls
+   71  docker container run -itdP angular 
+   72  docker container ls
+   73  docker image ls
+   74  docker container ls
+   75  docker container rm 16bc53b791a9
+   76  docker container rm 16bc53b791a9 -f
+   77  clear
+   78  ls
+   79  docker image ls
+   80  docker image rm angular
+   81  clear
+   82  ls
+   83  cd src/
+   84  ls
+   85  cd app/
+   86  ls
+   87  vi app.component.html 
+   88  ccd ../..
+   89  ls
+   90  cd clear
+   91  clear
+   92  ls
+   93  cd ../..
+   94  ls
+   95  docker image build -t angular .
+   96  clear
+   97  docker image ls
+   98  docker container run -itdP angular 
+   99  docker ps
+  100  cd 
+  101  ls
+  102  clear
+  103  ls
+  104  cat Dockerfile 
+  105  cd hello-world-angular/
+  106  l;s
+  107  ls
+  108  git status
+  109  git add .
+  110  git commit -m "dockerfile added"
+  111  git push origin master
+  112  clear
+  113  ls
+  114  cd 
+  115  ls
+  116  rm -rvf *
+  117  clear
+  118  docker container run -itd ubuntu 
+  119  clear
+  120  ls
+  121  git clone https://github.com/coolgourav147/hello-world-angular.git
+  122  clear
+  123  ls
+  124  cd hello-world-angular/
+  125  ls
+  126  clear
+  127  ls
+  128  docker image ls
+  129  docker image rm cb4113d4fe25 e00884c768d7 e00884c768d7 1d622ef86b13
+  130  docker ps -a
+  131  docker container rm 8a6959fa62f0 10f4dcb7824b
+  132  docker container rm 8a6959fa62f0 10f4dcb7824b -f
+  133  clear
+  134  l
+  135  docker image rm cb4113d4fe25 e00884c768d7 e00884c768d7 1d622ef86b13
+  136  clear
+  137  docker image ls
+  138  docker image rm node:lagtest
+  139  docker image rm node:latest
+  140  clear
+  141  docker image ls
+  142  docker image ls -a
+  143  docker image build -t angular .
+  144  clear
+  145  ls
+  146  vi Dockerfile 
+  147  docker image ls 
+  148  docker image ls -a
+  149  clear
+  150  ls
+  151  docker image --help
+  152  docker image ls
+  153  docker image history angular
+  154  cat Dockerfile 
+  155  clear
+  156  ls
+  157  docker container ls
+  158  docker container ls -a
+  159  vi Dockerfile 
+  160  docker image build -t angular1 .
+  161  cat Dockerfile 
+  162  docker image ls
+  163  docker image ls -
+  164  docker image history angular
+  165  clear
+  166  ls
+  167  clear
+  168  ls
+  169  git stash
+  170  cleara
+  171  vi Dockerfile 
+  172  clear
+  173  ls
+  174  src/
+  175  cd src/
+  176  ls
+  177  cd app/
+  178  ls
+  179  vi app.component.html 
+  180  clear
+  181  docker image ls
+  182  docker image rm angular1
+  183  docker image build -t angular1 .
+  184  cd ..
+  185  docker image build -t angular1 .
+  186  clear
+  187  docker image ls
+  188  clear
+  189  ls
+  190  vi Dockerfile 
+  191  LS
+  192  ls
+  193  clear
+  194  ls
+  195  docker ps
+  196  docker ps -a
+  197  docker image ls
+  198  docker image rm b23ec3812880 93d924482405
+  199  clear
+  200  ls
+  201  vi Dockerfile 
+  202  docker image build -t angular1 .
+  203  clear
+  204  ls
+  205  clear
+  206  docker image ls
+  207  docker image prune 
+  208  docker image ls
+  209  docker image prune  --help
+  210  cleear
+  211  clear
+  212  ls
+  213  docker image build -t angular1 .
+  214  ls
+  215  vi Dockerfile 
+  216  clear
+  217  ls
+  218  clear
+  219  docker container run -itd ubuntu 
+  220  clear
+  221  ls
+  222  docker container ls
+  223  docker contanier exec -it 68c2416f8209 bash
+  224  docker container exec -it 68c2416f8209 bash
+  225  ls
+  226  cd
+  227  clear
+  228  ls
+  229  docker ps
+  230  docker container rm 68c2416f8209
+  231  docker container rm 68c2416f8209 -f
+  232  docker container run -itd ubuntu 
+  233  docker container exec -it b5 bash
+  234  #bi
+  235  #Bind mount
+  236  # volume
+  237  docker image --help
+  238  docker --help
+  239  clear
+  240  docker volume ls
+  241  docker volume --help
+  242  docker volume create --help
+  243  clear
+  244  docker volume create test
+  245  docker volume ls
+  246  docker volume inspect test
+  247  docker volume ls
+  248  docker volume --help
+  249  docker volume rm test
+  250  docker volume create test
+  251  docker volume create test1
+  252  clear
+  253  docker volume ls
+  254  docker volume prune
+  255  clear
+  256  docker volume create test
+  257  docker volume ls
+  258  docker container run --help 
+  259  clear
+  260  docker container run -itd -v test:/data ubuntu
+  261  docker container exec -it 99 bash
+  262  docker contanier ls
+  263  docker container ls
+  264  docker container rm -f 997b9f637ef7
+  265  docker container ls
+  266  docker volume ls
+  267  docker container run -itd ubuntu
+  268  docker container exec -it e0 bash
+  269  clear
+  270  docker volume ls
+  271  docker container run -it -v test:/app ubuntu 
+  272  docker ps
+  273  docker container run -it -v test:/gaurav ubuntu 
+  274  docker container ls
+  275  docker container rm e0868ddc96ed b50c5a4c2fa2
+  276  docker container rm -f e0868ddc96ed b50c5a4c2fa2
+  277  docker container ls -a
+  278  docker container rm eed27beb6b4a 661dbe00e4e6
+  279  clear
+  280  docker volume ls
+  281  docker volume inspect test
+  282  cd /var/lib/docker/volumes/test/_data
+  283  ls
+  284  cd 
+  285  clear
+  286  history 
+  287  clear
+  288  docker volume ls
+  289  docker container run -it -v gaurav:/gaurav ubuntu 
+  290  docker volume ls
+  291  docker container ls
+  292  docker container rm cc970c8fd786
+  293  docker container rm cc970c8fd786 -f
+  294  docker volume inspect test
+  295  clear
+  296  docker volume ls
+  297  docker --help
+  298  clear
+  299  ls
+  300  pwd
+  301  docker container run -it -v /root/hello-world-angular:/code ubuntu
+  302  ls
+  303  cd hello-world-angular/
+  304  ls
+  305  git status
+  306  git stash
+  307  clear
+  308  apt-get update
+  309  apt-get install tmux
+  310  clear
+  311  tmux
+  312  docker image inspect mysql
+  313  docker image ls
+  314  docker image inspect angular1
+  315  clear
+  316  ls
+  317  docker image inspect mysql
+  318  docker volume ls
+  319  docker container run -itd -v 3d15c25e75380018c2bd9c6462da78cf62fca83da5147c4a74398482258e1aa6:/var/lib/mysql mysql
+  320  docker container ls
+  321  docker container exec -it 7b072cdda17f bash
+  322  ls
+  323  git stash
+  324  ls
+  325  git status
+  326  git stash
+  327  clear
+  328  ls
+  329  history > 19-5-2020-volume.txt
+  330  cat 19-5-2020-volume.txt 
+  331  clear
+  332  ls
+  333  git add 19-5-2020-volume.txt 
+  334  docker volume --help
+  335  git status
+  336  git commit -m "history added"
+  337  git push origin master
+  338  docker --help
+  339  docker volume create --help
+  340  clear
+  341  ls
+  342  vi Dockerfile 
+  343  docker volume ls
+  344  cat Dockerfile 
+  345  clear
+  346  ls
+  347  git status
+  348  git logs --oneline
+  349  git log --oneline
+  350  ls
+  351  cd hello-world-angular/
+  352  ls
+  353  clear
+  354  ls
+  355  git stash
+  356  cd ..
+  357  rm -rvf hello-world-angular/
+  358  clear
+  359  ls
+  360  docker ps
+  361  docker container rm 7b0
+  362  docker container rm 7b0 -g
+  363  docker container rm 7b0 -f
+  364  clear
+  365  docker image ls
+  366  docker image rm angular1
+  367  clear
+  368  docker image ls
+  369  docker volume ls
+  370  docker volume rm 3d15c25e75380018c2bd9c6462da78cf62fca83da5147c4a74398482258e1aa6 gaurav test
+  371  clear
+  372  ls
+  373  cd ..
+  374  ls
+  375  cd 
+  376  git clone https://github.com/coolgourav147/hello-world-angular.git
+  377  ls
+  378  cd hello-world-angular/
+  379  ls
+  380  vi Dockerfile 
+  381  docker image build -t angular1 .
+  382  docker image ls
+  383  docker container run -itdP angular1
+  384  docker ps
+  385  aclear
+  386  clear
+  387  ls
+  388  git status
+  389  git add Dockerfile 
+  390  git commit -m "dockerfile modified"
+  391  git push  origin master
+  392  clear
+  393  la
+  394  ls
+  395  lq
+  396  ls
+  397  la
+  398  ll
+  399  lr
+  400  lt
+  401  clear
+  402  apt-get install lt
+  403  lt
+  404  looptools
+  405  apt-get install looptools
+  406  man lt
+  407  lt
+  408  lt 3 4 5 6 
+  409  lt a
+  410  clear
+  411  ld
+  412  ls
+  413  lcear
+  414  clear
+  415  docker ps
+  416  docker container logs -f be
+  417  ll
+  418  ls
+  419  clear
+  420  ls
+  421  docker image kls
+  422  clear
+  423  ls
+  424  docker image ls
+  425  cd /home/ubuntu/
+  426  ls
+  427  clea
+  428  clear
+  429  ls
+  430  cd dominate_react_frontend/
+  431  ls
+  432  docker image ls
+  433  docker ps
+  434  docker container rm 09ecc67a4b08
+  435  docker container rm 09ecc67a4b08 -g
+  436  docker container rm 09ecc67a4b08 -f
+  437  docker ps -a
+  438  docker rm 04cbbea209ab 4a9a7b81bc0c
+  439  clear
+  440  ls
+  441  clear
+  442  ls
+  443  docker image build -t dominatefrontent .
+  444  ls
+  445  docker ps
+  446  docker image ls
+  447  docker container run -it fa37af0d68b5
+  448  docker container run -itd fa37af0d68b5
+  449  docker container logs -f 165
+  450  clear
+  451  ls
+  452  free -m
+  453  clear
+  454  docker image ls
+  455  docker image rm 56020145e816
+  456  docker image rm node
+  457  docker image rm node:14.2.0
+  458  clear
+  459  docker image ls
+  460  docker container run -itd dominatefrontent
+  461  docker container logs -f 1e33
+  462  ls
+  463  cat Dockerfile 
+  464  ls
+  465  docker container run -it -v $(pwd):/code node:12.12.0-alpine bash
+  466  docker container run -it -v $(pwd):/code node:12.12.0-alpine /bin/bash
+  467  cleaer
+  468  clear
+  469  docker container run -it -v $(pwd):/code node:12.12.0 /bin/bash
+  470  docker container run -it -v $(pwd):/code node:12.12.0-alpine /bin/bash
+  471  docker container run -it -v $(pwd):/code node:12.12.0-alpine sh
+  472  clear
+  473  docker ps
+  474  docker ps -a
+  475  docker container rm `docker ps -aq`
+  476  clear
+  477  ls
+  478  docker container run -it -v $(pwd):/app/ node:8-alpine sh
+  479  ls
+  480  docker image build -t dominatefrontent .
+  481  ks
+  482  ls
+  483  docker image rm *
+  484  clear
+  485  docker image ls
+  486  docker image rm `docker image ls -aq1
+  487  docker image rm `docker image ls -aq`
+  488  docker ps
+  489  docker ps -a
+  490  docker rm c7
+  491  docker image ls
+  492  docker image rm node
+  493  docker image rm node:8-alpine
+  494  clear
+  495  ls
+  496  vi Dockerfile 
+  497  docker image build -t dominatefrontent .
+  498  rm -rvf node_modules/
+  499  ld
+  500  ls
+  501  clear
+  502  rm -rvf build
+  503  clear
+  504  ls
+  505  rm -rvf build.zip 
+  506  ls
+  507  cd ..
+  508  cd dominate_react_frontend/
+  509  docker image rm node:8-alpine
+  510  docker image ls
+  511  docker image prune --all
+  512  clear
+  513  docker image build -t dominatefrontent .
+  514  docker images
+  515  docker container run -itd  dominatefrontent
+  516  docker ps
+  517  watch docker ps
+  518  ls
+  519  vi Dockerfile 
+  520  docker ps
+  521  docker ps -a
+  522  docker image rm bec97199a2d2
+  523  docker  rm bec97199a2d2
+  524  docker images
+  525  docker image rm 11f72c6d79e8 0fcfd7e52b09
+  526  clear
+  527  ls
+  528  vi Dockerfile 
+  529  docker image build -t dominatefrontent .
+  530  docker image ls
+  531  docker container run -idt dominatefrontent 
+  532  docker ps
+  533  watch "docker ps"
+  534  cat Dockerfile 
+  535  clear
+  536  ls
+  537  cd ..
+  538  ls
+  539  rm -rfv dominate_react_frontend/
+  540  clear
+  541  ls
+  542  clear
+  543  ls
+  544  docker image ls
+  545  docker image rm dominatefrontent
+  546  docker image rm dominatefrontent -f
+  547  docker ps
+  548  docker ps -a
+  549  docker container rm 66d5c38c12d3
+  550  docker image rm 0db35fb85674
+  551  clear
+  552  ls
+  553  clear
+  554  ls
+  555  clear
+  556  docker image pull node:14.2.0
+  557  docker ps
+  558  docker imaige ls
+  559  docker image ls
+  560  docker container run -it node:14.2.0 bash
+  561  docker container run -it -p 5000:5000 node:14.2.0 bash
+  562  git
+  563  clear
+  564  git clone   git config --global user.email "you@example.com"
+  565  clear
+  566  git clone https://github.com/coolgourav147/hello-world-react
+  567  clear
+  568  ls
+  569  cd hello-world-react/
+  570  ls
+  571  vi Dockerfile
+  572  docker image build -t react .
+  573  vi Dockerfile
+  574  docker image build -t react .
+  575  docker images
+  576  docker image inspect react
+  577  docker container run -itd -e PORT=6000 -P react
+  578  docker ps
+  579  docker container run -it -e PORT=6000 -P react
+  580  vi Dockerfile 
+  581  docker image build -t react .
+  582  docker container run -itd -e PORT=6000 -P react
+  583  docker ps
+  584  docker logs a0f3f69132df
+  585  clear
+  586  ls
+  587  vi Dockerfile 
+  588  clear
+  589  ls
+  590  ifconfig 
+  591  clear
+  592  docker ps
+  593  docker container rm a0f3f69132df
+  594  docker container rm a0f3f69132df -f
+  595  docker image rm react
+  596  clear
+  597  docker image ls
+  598  docker image rm 2d e0 0f
+  599  clear
+  600  docker ps -a
+  601  docker rm `docker ps -aq`
+  602  docker image ls
+  603  docker image rm 2d
+  604  clear
+  605  docker ps 
+  606  docker ps -a
+  607  clear
+  608  exit
+  609  docker container exec -it b9 bash 
+  610  exit
+  611  ls
+  612  clear
+  613  docker ips
+  614  docker ps
+  615  docker container exec -it e1745aa08e50 bash
+  616  exit
+  617  lce
+  618  clear
+  619  ls
+  620  rm -rvf *
+  621  clear
+  622  git clone https://github.com/coolgourav147/hello-world-react.git
+  623  clear
+  624  ls
+  625  cd hello-world-react/
+  626  ls
+  627  vi Dockerfile
+  628  clear
+  629  docker image build -t react .
+  630  docker image ls
+  631  docker container run -itdP react
+  632  docker ps
+  633  clear
+  634  ls
+  635  vi Dockerfile 
+  636  sl
+  637  ls
+  638  cd src/
+  639  ls
+  640  vi App.js 
+  641  cd ..
+  642  ls
+  643  docker image build -t react .
+  644  vi Dockerfile 
+  645  clear
+  646  ls
+  647  docker image build -t react .
+  648  clear
+  649  ls
+  650  vi Dockerfile 
+  651  cat Dockerfile 
+  652  vi Dockerfile 
+  653  docker image build -t react .
+  654  docker image inspect react | less
+  655  clear
+  656  ls
+  657  vi Dockerfile 
+  658  clear
+  659  ls
+  660  git status
+  661  git add .
+  662  git commit -m "app file"
+  663  git push origin master
+  664  clear
+  665  cd 
+  666  clear
+  667  docker image ls
+  668  docker ps
+  669  docker rm 1d423db9d62f
+  670  docker rm 1d423db9d62f -f
+  671  clear
+  672  ls
+  673  clear
+  674  ls
+  675  docker image ls
+  676  ls
+  677  docker image rm 8bb37e6d4bd5 2e3eb457db24 ab2e01961f7a ab2e01961f7a
+  678  clear
+  679  ls
+  680  docker image ls
+  681  docker image rm 86334ecd6665 
+  682  clear
+  683  docker container run -it -v abc:/app -v bcd:/code ubuntu:14.04
+  684  docker volume ls
+  685  docker container inspect fb1ee49a74fb| less
+  686  clear
+  687  ls
+  688  docker container run --name some-mysql -e MYSQL_ROOT_PASSWORD=mysecretpw -d mysql
+  689  docker volume ls
+  690  docker image ls
+  691  clear
+  692  ls
+  693  docker image build -t react .
+  694  docker image ls
+  695  docker volume ls
+  696  docker container run -itd react
+  697  docker volume ls
+  698  docker container inspect e9 | less
+  699  cat Dc
+  700  cat Dockerfile 
+  701  clear
+  702  ifconfig n
+  703  ifconfig 
+  704  docker container run -itd mysql 
+  705  docker image ls
+  706  docker ps
+  707  docker container run -it mysql 
+  708  docker ps -a
+  709  clear
+  710  ls
+  711  docker container rm `docker container ls -aq`
+  712  docker container rm `docker container ls -aq` -f
+  713  docker image prune -a
+  714  clear
+  715  ifconfig 
+  716  clear
+  717  ls
+  718  docker container run --name some-mysql -e MYSQL_ROOT_PASSWORD=mysecretpw -d mysql
+  719  docker container inspect 01
+  720  docker container ls
+  721  clear
+  722  vi w.txt
+  723  history 
+  724  vi w.txt 
+  725  docker container run --name some-wordpress -e WORDPRESS_DB_HOST=172.17.0.2:3306 -e WORDPRESS_DB_USER='root -e WORDPRESS_DB_PASSWORD=mysecretpw -d wordpress
+  726  docker container run --name some-wordpress -e WORDPRESS_DB_HOST=172.17.0.2:3306 -e WORDPRESS_DB_USER='root' -e WORDPRESS_DB_PASSWORD=mysecretpw -d wordpress
+  727  docker container run --name some-wordpress -e WORDPRESS_DB_HOST=172.17.0.2:3306 -e WORDPRESS_DB_USER='root' -e WORDPRESS_DB_PASSWORD=mysecretpw -p 6700:80 -d wordpress
+  728  docker ps
+  729  clear
+  730  ls
+  731  clear
+  732  l
+  733  ls
+  734  docker container ls
+  735  docker container run -it 47c107826950 bash
+  736  docker container exec -it 47c107826950 bash
+  737  clear
+  738  ls
+  739  docker image ls
+  740  docker container run -itd ubuntu:14.04 
+  741  tmux 
+  742  clear
+  743  docker container ls
+  744  docker container rm 47c107826950 01d16368c92d 
+  745  docker container rm 47c107826950 01d16368c92d  -g
+  746  docker container rm 47c107826950 01d16368c92d  -f
+  747  clear
+  748  ls
+  749  docker ps
+  750  docker container rm -f `docker ps -aq`
+  751  clear
+  752  ifconfig 
+  753  docker container run -itd ubuntu:14.04 
+  754  ifconfig 
+  755  docker ps
+  756  docker container exec -it 6cfbc4a4194f bash
+  757  iptables -L
+  758  iptables -t NAT -L
+  759  iptables -t nat -L
+  760  iptables -t nat -Lnv
+  761  iptables -t nat -nv:L
+  762  iptables -t nat -nvL
+  763  clear
+  764  docker network ls
+  765  docker network --help
+  766  docker network create --help
+  767  docker network create -d bridge test
+  768  docker network ls
+  769  docker network create test1
+  770  docker network ls
+  771  docker network rm test1
+  772  docker network --help
+  773  clear
+  774  docker network ls
+  775  docker ps
+  776  docker container rm 6cfbc4a4194f
+  777  docker container rm 6cfbc4a4194f -g
+  778  docker container rm 6cfbc4a4194f -f
+  779  clear
+  780  ifconfig 
+  781  docker container run --help
+  782  docker network ls
+  783  docker container run -itd --network test ubuntu
+  784  docker container inspect 4dd | less
+  785  docker network ls
+  786  docker network inspect bf6952223c06
+  787  docker container ls
+  788  clear
+  789  docker container ls
+  790  docker network ls
+  791  docker network create test1
+  792  docker container run -itd --network test --network test1 ubuntu
+  793  docker container run -itd --network=test,test1  ubuntu
+  794  clear
+  795  docker container run --network=test -itd ubuntu
+  796  docker container run --network=test -itd ubuntu:14.04
+  797  docker container exec -it ef ifconfig
+  798  docker network ls
+  799  docker network --help
+  800  docker network connect test1  ef
+  801  docker container exec -it ef ifconfig
+  802  clear
+  803  docker network ls
+  804  clear
+  805  ls
+  806  docker network ls
+  807  docker container run -itd ubuntu:14.04
+  808  docker container exec -it 8f ifconfig
+  809  docker ps
+  810  docker container run -it ubuntu:14.04 
+  811  docker container rm `docker container ls -aq` -f
+  812  docker container run -itd --network test ubuntu:14.04
+  813  docker ps
+  814  docker container run -it --network test ubuntu:14.04
+  815  docker container run --name ccc -it --network test ubuntu:14.04
+  816  docker container run --name cccd -itd --network test ubuntu:14.04
+  817  docker container run --name ccce -it --network test ubuntu:14.04
+  818  history 
+  819  history > 20-06-2020-docker-network.txt
+  820  ls
+  821  cp 20-06-2020-docker-network.txt hello-world-react/
+  822  cd hello-world-react/
+  823  ls
+  824  git status
+  825  git add .
+  826  git commit -m "history added"
+  827  git push origin  master
+  828  clear
+  829  cd 
+  830  l
+  831  vi test.txt
+  832  cat test.txt 
+  833  docker container run -it -e MYSQL_ROOT_PASSWORD=somewordpress -e  MYSQL_DATABASE=wordpress -e  MYSQL_USER=wordpress -e MYSQL_PASSWORD=wordpress -d mysql:5.7
+  834  docker container inspect d37
+  835  cat test.txt 
+  836  docker container run -it -e WORDPRESS_DB_HOST=172.17.0.2:3306 -e WORDPRESS_DB_USER=wordpress -e WORDPRESS_DB_PASSWORD=wordpress -e WORDPRESS_DB_NAME=wordpress -d wordpress:latest
+  837  docker container run -it -e WORDPRESS_DB_HOST=172.17.0.2:3306 -e WORDPRESS_DB_USER=wordpress -e WORDPRESS_DB_PASSWORD=wordpress -e WORDPRESS_DB_NAME=wordpress -d -p 9000:80 wordpress:latest
+  838  history 
+  839  clear
+  840  ls
+  841  vi hello-world-react/20-06-2020-docker-network.txt 
+  842  ls
+  843  cd hello-world-react/
+  844  ls
+  845  git status
+  846  git add 20-06-2020-docker-network.txt 
+  847  git diff
+  848  vi 20-06-2020-docker-network.txt 
+  849  git status
+  850  git commit -m "wordpresscommand added"
+  851  git push  origin  master
+  852  clear
+  853  ls
+  854  clear
+  855  ls
+  856  docker image pull jenkins/jenkins
+  857  docker container run -itd jenkins/jenkins
+  858  docker container exec -it 34 bash
+  859  docker container exec -u 0  -it 34 bash
+  860  docker ps
+  861  docker contaer rm 82c1066a94ac 6fb50bb830df d370ce3ef974 6f02bfeca5f1 cb913f07da47
+  862  docker container rm 82c1066a94ac 6fb50bb830df d370ce3ef974 6f02bfeca5f1 cb913f07da47
+  863  docker container rm 82c1066a94ac 6fb50bb830df d370ce3ef974 6f02bfeca5f1 cb913f07da47 -f
+  864  docker ps
+  865  docker ps -a
+  866  docker container rm 346d61546c66 31ab4222c7a7 6af84dd84bb6 a60c4f2ec474
+  867  clear
+  868  docker image ls
+  869  docker image prune -a
+  870  clear
+  871  exit
+  872  docker pull maven:3-jdk-11
+  873  ls
+  874  git clone https://github.com/coolgourav147/HelloWorld-Java-Springboot.git
+  875  ls
+  876  cd HelloWorld-Java-Springboot/
+  877  ls
+  878  vi Dockerfile
+  879  docker container run -it -v $(pwd):/code maven:3-jdk-11 bash
+  880  ls
+  881  docker container run -it -v $(pwd):/code -p 8080:8080 maven:3-jdk-11 bash
+  882  ifconfig 
+  883  clear
+  884  ls
+  885  cd HelloWorld-Java-Springboot/
+  886  ls
+  887  rm -rvf *
+  888  clear
+  889  ls
+  890  cd ..
+  891  ls
+  892  rm -rvf *
+  893  clear
+  894  ls
+  895  git clone https://github.com/coolgourav147/HelloWorld-Java-Springboot.git
+  896  ls
+  897  cd HelloWorld-Java-Springboot/
+  898  ls
+  899  clear
+  900  ls
+  901  vi Dockerflie
+  902  vim Dockerflie
+  903  mv Dockerflie  Dockerfile
+  904  vi Dockerfile 
+  905  docker image build -t react .
+  906  cleqr
+  907  docker image ls
+  908  docker container run -it react bash
+  909  vim Dockerfile 
+  910  docker image build -t react .
+  911  clear
+  912  ls
+  913  cat Dockerfile 
+  914  ls -a
+  915  cat .gitignore 
+  916  clear
+  917  ls
+  918  vi .dockerignore
+  919  clear
+  920  ls
+  921  docker container run -itPd react
+  922  docker ps
+  923  docker container logs -f 1f0f4bc4a37d
+  924  docker ps
+  925  clear
+  926  ls
+  927  docker container ls
+  928  docker image ls
+  929  docker container exec -it 1f0f4bc4a37d bash
+  930  docker container cp 1f:/code/target/HelloWorld-Java-Springboot-0.0.1.jar .
+  931  ls
+  932  docker image pull openjdk:11-jdk
+  933  clear
+  934  cat Dockerfile 
+  935  docker ps
+  936  docker container exec -it 1f0f4bc4a37d bash
+  937  ls
+  938  cp Dockerfile Dockerfile1
+  939  vi Dockerfile1
+  940  cat Dockerfile1 
+  941  vi Dockerfile
+  942  vi Dockerfile1
+  943  clear
+  944  ls
+  945  docker image build -t java .
+  946  clear
+  947  docker image build -t java -f Dockerfile1 .
+  948  docker image ls
+  949  docker container run -itdP java
+  950  docker ps
+  951  docker container exec -it 3ce2fe3a5d9a bash
+  952  clear
+  953  ls
+  954  docker container rm -f `docker container ls -aq`
+  955  clear
+  956  ls
+  957  docker image prune -a
+  958  clear
+  959  ls
+  960  docker image build -t java -f Dockerfile1 .
+  961  docker image build -t withcodejava .
+  962  clear
+  963  docker image ls
+  964  docker container run -it withcodejava bash
+  965  clear
+  966  ls
+  967  rm HelloWorld-Java-Springboot-0.0.1.jar 
+  968  ls
+  969  ls -a
+  970  ls
+  971  cd /tmp/
+  972  ls
+  973  clear
+  974  cd 
+  975  ls
+  976  HelloWorld-Java-Springboot/
+  977  cd HelloWorld-Java-Springboot/
+  978  ls
+  979  cat .dockerignore 
+  980  cat Dockerfile1 
+  981  clear
+  982  ls
+  983  vi Dockerfile
+  984  ls
+  985  cat Dockerfile
+  986  clear
+  987  ls
+  988  cat Dockerfile
+  989  docker image ls
+  990  docker image rm withcodejava
+  991  docker ps
+  992  docker ps -a
+  993  docker container rm 56
+  994  docker image rm withcodejava
+  995  docker image rm java
+  996  clear
+  997  docker image ls
+  998  docker image build -t java .
+  999  vi Dockerfile
+ 1000  clear
+ 1001  docker image build -t java .
+ 1002  docker image ls
+ 1003  docker container run -itdP java
+ 1004  docker ps
+ 1005  clear
+ 1006  ls
+ 1007  docker ps
+ 1008  docker container exec -it dcfb1d4f521e bash
+ 1009  git status
+ 1010  docker image ls
+ 1011  docker image build -t java .
+ 1012  ls
+ 1013  vi Dockerfile
+ 1014  docker image build -t java .
+ 1015  ls
+ 1016  docker image ls
+ 1017  docker image rm c39dc4ddedde
+ 1018  ls
+ 1019  docker image ls
+ 1020  ls
+ 1021  docker ps
+ 1022  docker container rm dcfb1d4f521e
+ 1023  docker container rm dcfb1d4f521e -f
+ 1024  docker ps -a
+ 1025  clear
+ 1026  docker ps
+ 1027  docker image ls
+ 1028  docker image prune
+ 1029  docker imaige ls
+ 1030  docker image ls
+ 1031  docker image --help
+ 1032  docker image prune --help
+ 1033  clear
+ 1034  ls
+ 1035  git status
+ 1036  git add .dockerignore Dockerfile
+ 1037  git commit -m "docker file added."
+ 1038  git push origin master
+ 1039  clear
+ 1040  ls
+ 1041  docker network ls
+ 1042  docker network rm test test1
+ 1043  clear
+ 1044  docker network ls
+ 1045  docker container run -itd --network host ubuntu:14.04
+ 1046  ifconfig 
+ 1047  clear
+ 1048  ifconfig 
+ 1049  docker ps
+ 1050  docker container exec -it ad1e70353a7b bash
+ 1051  docker container run -itd --network none ubuntu:14.04
+ 1052  docker container run -it exec a7 bash
+ 1053  docker container exec -it a7 bash
+ 1054  docker network ls
+ 1055  history > 22-06-2020-build-network.txt
